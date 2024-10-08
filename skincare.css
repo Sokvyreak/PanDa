@@ -1,0 +1,1123 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Kalnia&display=swap');
+
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Kalnia ;
+
+}
+.menu{
+  width: 100%;  
+  height: 50px; 
+  background-color: black;
+  box-shadow: 2px 2px 10px rgb(152, 71, 71);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.menu .box{
+  width: 100%;
+  height: 100px;
+  background-color: aqua;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+.menu .box .menu_list .menu_icons ,ul{
+  list-style-type: none;
+  padding-top: 7px;
+  display: flex;
+  column-gap: 40px;
+}
+.menu .box .menu_list .menu_icons ,ul li a{
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+.menu .box .logo h1{
+  font-size: 60px;
+}
+.menu .box .menu_list  ul li a:hover{
+  color: deeppink;
+}
+.menu .box .menu_icons ul li a:hover{
+  color: deeppink;
+}
+.menu .box .logo:hover h1{
+  color: rgb(246, 255, 0);
+}
+.container{
+  width: 100%;
+  height: 800px;
+  /* background-color: blue; */
+}
+.container ,img{
+  width: 100%;
+  height: 100%;
+  position: relative; 
+}
+.container .text{
+  width: 400px;
+  height: 300px;
+  /* background-color: aqua; */
+  position: absolute;
+  bottom: 450px;
+  left: 15%;
+}
+.container .text ,h1,h2,p{
+  margin-bottom: 15px;
+}
+.container .text form button[type=button]{
+  width: 130px;
+  padding: 15px 15px;
+  position: absolute;
+  /* right: 50%; */
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+}
+.container .text form button:hover{
+ background-color: deeppink;
+}
+.main{
+  width: 100%;
+  height: 600px;
+  /* background-color: rgb(135, 12, 236); */
+  padding: 20px;
+
+}
+.main .maintain{
+  width: 80%;
+  height: 90%;
+  background-color: rgb(211, 206, 206);
+  margin: 0 auto;
+}
+.main .maintain .main_up{
+  width: 100%;
+  height: 20%;
+  background-color: rgb(0, 191, 255);
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .maintain .main_down{
+  width: 100%;
+  height:80%;
+  /* background-color: rgb(255, 0, 0); */
+  display: flex;
+}
+.main .maintain .main_down .main_left {
+  width: 40%;
+  height: 100%;
+  /* background-color: rgb(246, 255, 0); */
+  display: flex;
+}
+.main .maintain .main_down .main_left .mid{
+  width: 100%;
+  height: 250px;
+  /* background-color: blue; */
+  margin-top: 50px;
+}
+.main .maintain .main_down .main_right {
+  width: 70%;
+  height: 100%;
+  /* background-color: rgb(20, 255, 59); */
+  margin-right: 10px;
+}
+.main .maintain .main_down .main_right form button[type=button]{
+  width: 200px;
+  height: 40px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+.main .maintain .main_down .main_right form button[type=button]:hover{
+  background-color: deeppink;
+}
+/* -----icon----- */
+.new_main{
+  width: 100%;
+  height: 250px;
+  background-color: rgb(223, 221, 220);
+  /* padding: 15px 15px 15px; */
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 15px 15px 15px;
+}
+.new_main .box1 {
+  width: 20%;
+  height: 150px;
+  background-color: rgb(198, 193, 193);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   margin-right: 20px;
+}
+.new_main .box1 .inbox1 {
+  width: 60%;
+  height: 60%;
+  /* background-color: blueviolet; */
+  font-size: 15px;
+  /* display: flex;
+  align-items: center; */
+}
+.new_main .box1 i{
+  font-size: 80px;
+}
+.new_main .box2 {
+  width: 20%;
+  height: 150px;
+  background-color: rgb(198, 193, 193);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  
+}
+.new_main .box2 .inbox2 {
+  width: 60%;
+  height: 60%;
+  /* background-color: blueviolet; */
+  font-size: 15px;
+  /* display: flex;
+  align-items: center; */
+}
+.new_main .box2 i{
+  font-size: 80px;
+}
+.new_main .box3 {
+  width: 20%;
+  height: 150px;
+  background-color: rgb(198, 193, 193);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  
+}
+.new_main .box3 .inbox3 {
+  width: 60%;
+  height: 60%;
+  /* background-color: blueviolet; */
+  font-size: 15px;
+  /* display: flex;
+  align-items: center; */
+  margin-right: 20px;
+}
+.new_main .box3 i{
+  font-size: 80px;
+}
+.new_main .box4 {
+  width: 20%;
+  height: 150px;
+  background-color: rgb(198, 193, 193);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+.new_main .box4 .inbox4 {
+  width: 60%;
+  height: 60%;
+  /* background-color: blueviolet; */
+  font-size: 15px;
+  /* display: flex;
+  align-items: center; */
+}
+.new_main .box4 i{
+  font-size: 80px;
+}
+/* ------stop------ */
+.sell{
+  width: 100%;
+  height: 1000px;
+  background-color: rgb(210, 143, 201);
+  padding-top: 40px;
+}
+  .sell .head{
+  width: 80%;
+  height: 150px;
+  background-color: rgb(0, 255, 68);
+  margin: 0 auto;
+  border: 20px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.sell .menu_box1{
+  width: 80%;
+  height: 75%;
+  /* background-color: rgb(232, 232, 232); */
+  margin: 0 auto;
+  padding-top: 20px;
+  
+}
+.sell .menu_box1 .pro1{
+  width: 100%;
+  height: 50%;
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.sell .menu_box1 .pro1 .fbox1{
+  width: 20%;
+  height: 100%;
+  box-shadow: 10px black;
+  margin-right: 20px;
+}
+.sell .menu_box1 .pro1 .fbox1 .text1{
+  width: 100%;
+  height: 25%;
+  background-color: rgb(234, 255, 0);
+  padding-top: 10px;
+  padding-left: 70px;
+}
+.sell .menu_box1 .pro1 .fbox1 .text1 p{
+  color: red;
+  font-weight: 20px;
+}
+.sell .menu_box1 .pro1 .fbox1 .pic1{
+  width: 100%;
+  height: 75%;
+  overflow: hidden;
+  position: relative;
+}
+.sell .menu_box1 .pro1 .fbox1 .pic1 span{
+  width: 70px;
+  background-color: deeppink;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  padding: 10px;
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  z-index: 20;
+}
+.sell .menu_box1 .pro1 .fbox2{
+  width: 20%;
+  height: 100%;
+  box-shadow: 10px black;
+  margin-right: 20px;
+}
+.sell .menu_box1 .pro1 .fbox2 .text2{
+  width: 100%;
+  height: 25%;
+  background-color: rgb(234, 255, 0);
+  padding-top: 10px;
+  padding-left: 70px;
+}
+.sell .menu_box1 .pro1 .fbox2 .text2 p{
+  color: red;
+  font-weight: 20px;
+}
+.sell .menu_box1 .pro1 .fbox2 .pic2{
+  width: 100%;
+  height: 75%;
+  overflow: hidden;
+  position: relative;
+}
+.sell .menu_box1 .pro1 .fbox2 .pic2 span{
+  width: 70px;
+  background-color: deeppink;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  padding: 10px;
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  z-index: 20;
+}
+.sell .menu_box1 .pro1 .fbox3{
+  width: 20%;
+  height: 100%;
+  box-shadow: 10px black;
+  margin-right: 20px;
+}
+.sell .menu_box1 .pro1 .fbox3 .text3{
+  width: 100%;
+  height: 25%;
+  background-color: rgb(234, 255, 0);
+  padding-top: 10px;
+  padding-left: 70px;
+}
+.sell .menu_box1 .pro1 .fbox3 .text3 p{
+  color: red;
+  font-weight: 20px;
+}
+.sell .menu_box1 .pro1 .fbox3 .pic3{
+  width: 100%;
+  height: 75%;
+  overflow: hidden;
+  position: relative;
+}
+.sell .menu_box1 .pro1 .fbox3 .pic3 span{
+  width: 70px;
+  background-color: deeppink;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  padding: 10px;
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  z-index: 20;
+}
+.sell .menu_box1 .pro1 .fbox4{
+  width: 20%;
+  height: 100%;
+  box-shadow: 10px black;
+  margin-right: 20px;
+}
+.sell .menu_box1 .pro1 .fbox4 .text4{
+  width: 100%;
+  height: 25%;
+  background-color: rgb(234, 255, 0);
+  padding-top: 10px;
+  padding-left: 70px;
+}
+.sell .menu_box1 .pro1 .fbox4 .text4 p{
+  color: red;
+  font-weight: 20px;
+}
+.sell .menu_box1 .pro1 .fbox4 .pic4{
+  width: 100%;
+  height: 75%;
+  overflow: hidden;
+  position: relative;
+}
+.sell .menu_box1 .pro1 .fbox4 .pic4 span{
+  width: 70px;
+  background-color: deeppink;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  padding: 10px;
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  z-index: 20;
+}
+.sell .menu_box1 .pro2{
+  width: 100%;
+  height: 50%;
+  /* background-color: rgb(255, 0, 0); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.sell .menu_box1 .pro2 .fbox1{
+  width: 20%;
+  height: 100%;
+  box-shadow: 10px black;
+  margin-right: 20px;
+}
+.sell .menu_box1 .pro2 .fbox1 .text1{
+  width: 100%;
+  height: 25%;
+  background-color: rgb(234, 255, 0);
+  padding-top: 10px;
+  padding-left: 70px;
+}
+.sell .menu_box1 .pro2 .fbox1 .text1 p{
+  color: red;
+  font-weight: 20px;
+}
+.sell .menu_box1 .pro2 .fbox1 .pic1{
+  width: 100%;
+  height: 75%;
+  overflow: hidden;
+  position: relative;
+}
+.sell .menu_box1 .pro2 .fbox1 .pic1 span{
+  width: 70px;
+  background-color: deeppink;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  padding: 10px;
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  z-index: 20;
+}
+.sell .menu_box1 .pro2 .fbox2{
+  width: 20%;
+  height: 100%;
+  box-shadow: 10px black;
+  margin-right: 20px;
+}
+.sell .menu_box1 .pro2 .fbox2 .text2{
+  width: 100%;
+  height: 25%;
+  background-color: rgb(234, 255, 0);
+  padding-top: 10px;
+  padding-left: 70px;
+}
+.sell .menu_box1 .pro2 .fbox2 .text2 p{
+  color: red;
+  font-weight: 20px;
+}
+.sell .menu_box1 .pro2 .fbox2 .pic2{
+  width: 100%;
+  height: 75%;
+  overflow: hidden;
+  position: relative;
+}
+.sell .menu_box1 .pro2 .fbox2 .pic2 span{
+  width: 70px;
+  background-color: deeppink;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  padding: 10px;
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  z-index: 20;
+}
+.sell .menu_box1 .pro2 .fbox3{
+  width: 20%;
+  height: 100%;
+  box-shadow: 10px black;
+  margin-right: 20px;
+}
+.sell .menu_box1 .pro2 .fbox3 .text3{
+  width: 100%;
+  height: 25%;
+  background-color: rgb(234, 255, 0);
+  padding-top: 10px;
+  padding-left: 70px;
+}
+.sell .menu_box1 .pro2 .fbox3 .text3 p{
+  color: red;
+  font-weight: 20px;
+}
+.sell .menu_box1 .pro2 .fbox3 .pic3{
+  width: 100%;
+  height: 75%;
+  overflow: hidden;
+  position: relative;
+}
+.sell .menu_box1 .pro2 .fbox3 .pic3 span{
+  width: 70px;
+  background-color: deeppink;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  padding: 10px;
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  z-index: 20;
+}
+.sell .menu_box1 .pro2 .fbox4{
+  width: 20%;
+  height: 100%;
+  box-shadow: 10px black;
+  margin-right: 20px;
+}
+.sell .menu_box1 .pro2 .fbox4 .text4{
+  width: 100%;
+  height: 25%;
+  background-color:rgb(234, 255, 0);
+  padding-top: 10px;
+  padding-left: 70px;
+}
+.sell .menu_box1 .pro2 .fbox4 .text4 p{
+  color: red;
+  font-weight: 20px;
+}
+.sell .menu_box1 .pro2 .fbox4 .pic4{
+  width: 100%;
+  height: 75%;
+  overflow: hidden;
+  position: relative;
+}
+.sell .menu_box1 .pro2 .fbox4 .pic4 span{
+  width: 70px;
+  background-color: deeppink;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  padding: 10px;
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  z-index: 20;
+}
+.sell-1{
+  width: 100%;
+  height: 1000px;
+  background-color: rgb(210, 143, 201);
+  padding-top: 40px;
+}
+  .sell-1 .head-1{
+  width: 80%;
+  height: 150px;
+  background-color: rgb(0, 255, 68);
+  margin: 0 auto;
+  border: 20px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.sell-1 .menu_box-1{
+  width: 80%;
+  height: 75%;
+  /* background-color: rgb(232, 232, 232); */
+  margin: 0 auto;
+  padding-top: 20px;
+  
+}
+.sell-1 .menu_box-1 .pro-1{
+  width: 100%;
+  height: 50%;
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.sell-1 .menu_box-1 .pro-1 .fbox-1{
+  width: 20%;
+  height: 100%;
+  box-shadow: 10px black;
+  margin-right: 20px;
+}
+.sell-1 .menu_box-1 .pro-1 .fbox-1 .text-1{
+  width: 100%;
+  height: 25%;
+  background-color:rgb(234, 255, 0);
+  padding-top: 10px;
+  padding-left: 70px;
+}
+.sell-1 .menu_box-1 .pro-1 .fbox-1 .text-1 p{
+  color: red;
+  font-weight: 20px;
+}
+.sell-1 .menu_box-1 .pro-1 .fbox-1 .pic-1{
+  width: 100%;
+  height: 75%;
+  overflow: hidden;
+  position: relative;
+}
+.sell-1 .menu_box-1 .pro-1 .fbox-1 .pic-1 span{
+  width: 70px;
+  background-color: deeppink;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  padding: 10px;
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  z-index: 20;
+}
+.sell-1 .menu_box-1 .pro-1 .fbox-2{
+  width: 20%;
+  height: 100%;
+  box-shadow: 10px black;
+  margin-right: 20px;
+}
+.sell-1 .menu_box-1 .pro-1 .fbox-2 .text-2{
+  width: 100%;
+  height: 25%;
+  background-color: rgb(234, 255, 0);
+  padding-top: 10px;
+  padding-left: 70px;
+}
+.sell-1 .menu_box-1 .pro-1 .fbox-2 .text-2 p{
+  color: red;
+  font-weight: 20px;
+}
+.sell-1 .menu_box-1 .pro-1 .fbox-2 .pic-2{
+  width: 100%;
+  height: 75%;
+  overflow: hidden;
+  position: relative;
+}
+.sell-1 .menu_box-1 .pro-1 .fbox-2 .pic-2 span{
+  width: 70px;
+  background-color: deeppink;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  padding: 10px;
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  z-index: 20;
+}
+.sell-1 .menu_box-1 .pro-1 .fbox-3{
+  width: 20%;
+  height: 100%;
+  box-shadow: 10px black;
+  margin-right: 20px;
+}
+.sell-1 .menu_box-1 .pro-1 .fbox-3 .text-3{
+  width: 100%;
+  height: 25%;
+  background-color: rgb(234, 255, 0);
+  padding-top: 10px;
+  padding-left: 70px;
+}
+.sell-1 .menu_box-1 .pro-1 .fbox-3 .text-3 p{
+  color: red;
+  font-weight: 20px;
+}
+.sell-1 .menu_box-1 .pro-1 .fbox-3 .pic-3{
+  width: 100%;
+  height: 75%;
+  overflow: hidden;
+  position: relative;
+}
+.sell-1 .menu_box-1 .pro-1 .fbox-3 .pic-3 span{
+  width: 70px;
+  background-color: deeppink;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  padding: 10px;
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  z-index: 20;
+}
+.sell-1 .menu_box-1 .pro-1 .fbox-4{
+  width: 20%;
+  height: 100%;
+  box-shadow: 10px black;
+  margin-right: 20px;
+}
+.sell-1 .menu_box-1 .pro-1 .fbox-4 .text-4{
+  width: 100%;
+  height: 25%;
+  background-color:rgb(234, 255, 0);
+  padding-top: 10px;
+  padding-left: 70px;
+}
+.sell-1 .menu_box-1 .pro-1 .fbox-4 .text-4 p{
+  color: red;
+  font-weight: 20px;
+}
+.sell-1 .menu_box-1 .pro-1 .fbox-4 .pic-4{
+  width: 100%;
+  height: 75%;
+  overflow: hidden;
+  position: relative;
+}
+.sell-1 .menu_box-1 .pro-1 .fbox-4 .pic-4 span{
+  width: 70px;
+  background-color: deeppink;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  padding: 10px;
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  z-index: 20;
+}
+.sell-1 .menu_box-1 .pro-2{
+  width: 100%;
+  height: 50%;
+  /* background-color: rgb(255, 0, 0); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.sell-1 .menu_box-1 .pro-2 .fbox-1{
+  width: 20%;
+  height: 100%;
+  box-shadow: 10px black;
+  margin-right: 20px;
+}
+.sell-1 .menu_box-1 .pro-2 .fbox-1 .text-1{
+  width: 100%;
+  height: 25%;
+  background-color:rgb(234, 255, 0);
+  padding-top: 10px;
+  padding-left: 70px;
+}
+.sell-1 .menu_box-1 .pro-2 .fbox-1 .text-1 p{
+  color: red;
+  font-weight: 20px;
+}
+.sell-1 .menu_box-1 .pro-2 .fbox-1 .pic-1{
+  width: 100%;
+  height: 75%;
+  overflow: hidden;
+  position: relative;
+}
+.sell-1 .menu_box-1 .pro-2 .fbox-1 .pic-1 span{
+  width: 70px;
+  background-color: deeppink;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  padding: 10px;
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  z-index: 20;
+}
+.sell-1 .menu_box-1 .pro-2 .fbox-2{
+  width: 20%;
+  height: 100%;
+  box-shadow: 10px black;
+  margin-right: 20px;
+}
+.sell-1 .menu_box-1 .pro-2 .fbox-2 .text-2{
+  width: 100%;
+  height: 25%;
+  background-color: rgb(234, 255, 0);
+  padding-top: 10px;
+  padding-left: 70px;
+}
+.sell-1 .menu_box-1 .pro-2 .fbox-2 .text-2 p{
+  color: red;
+  font-weight: 20px;
+}
+.sell-1 .menu_box-1 .pro-2 .fbox-2 .pic-2{
+  width: 100%;
+  height: 75%;
+  overflow: hidden;
+  position: relative;
+}
+.sell-1 .menu_box-1 .pro-2 .fbox-2 .pic-2 span{
+  width: 70px;
+  background-color: deeppink;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  padding: 10px;
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  z-index: 20;
+}
+.sell-1 .menu_box-1 .pro-2 .fbox-3{
+  width: 20%;
+  height: 100%;
+  box-shadow: 10px black;
+  margin-right: 20px;
+}
+.sell-1 .menu_box-1 .pro-2 .fbox-3 .text-3{
+  width: 100%;
+  height: 25%;
+  background-color: rgb(234, 255, 0);
+  padding-top: 10px;
+  padding-left: 70px;
+}
+.sell-1 .menu_box-1 .pro-2 .fbox-3 .text-3 p{
+  color: red;
+  font-weight: 20px;
+}
+.sell-1 .menu_box-1 .pro-2 .fbox-3 .pic-3{
+  width: 100%;
+  height: 75%;
+  overflow: hidden;
+  position: relative;
+}
+.sell-1 .menu_box-1 .pro-2 .fbox-3 .pic-3 span{
+  width: 70px;
+  background-color: deeppink;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  padding: 10px;
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  z-index: 20;
+}
+.sell-1 .menu_box-1 .pro-2 .fbox-4{
+  width: 20%;
+  height: 100%;
+  box-shadow: 10px black;
+  margin-right: 20px;
+}
+.sell-1 .menu_box-1 .pro-2 .fbox-4 .text-4{
+  width: 100%;
+  height: 25%;
+  background-color:rgb(234, 255, 0);
+  padding-top: 10px;
+  padding-left: 70px;
+}
+.sell-1 .menu_box-1 .pro-2 .fbox-4 .text-4 p{
+  color: red;
+  font-weight: 20px;
+}
+.sell-1 .menu_box-1 .pro-2 .fbox-4 .pic-4{
+  width: 100%;
+  height: 75%;
+  overflow: hidden;
+  position: relative;
+}
+.sell-1 .menu_box-1 .pro-2 .fbox-4 .pic-4 span{
+  width: 70px;
+  background-color: deeppink;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  padding: 10px;
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  z-index: 20;
+}
+/* ===========cmt========== */
+.cmt{
+  width: 100%;
+  height: 1500px;
+  background-color: rgb(137, 66, 66);
+  margin: 0 auto;
+}
+.cmt .header{
+  width: 80%;
+  height: 10%;
+  background-color: blueviolet;
+  border: 20px solid white;
+  margin: 0 auto;
+}
+.cmt .header h1{
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+.cmt .review{
+  width: 80%;
+  height: 35%;
+  background-color: rgb(99, 99, 99);
+  margin: 0 auto;
+  padding-top: 20px;
+  display: flex;
+}
+.cmt .review .view{
+  width: 25%;
+  height: 90%;
+  background-color: rgb(255, 255, 255);
+  /* box-shadow: 5px 5px 5px rgb(93, 89, 89); */
+  margin-right: 10px;
+  /* border: 5px solid rgb(155, 21, 21); */
+}
+.cmt .review .view .star{
+  width: 100%;
+  height: 10%;
+  /* background-color: brown; */
+  display: flex;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.cmt .review .view .text-c{
+  width: 90%;
+  height: 70%;
+  /* background-color: rgb(106, 165, 42); */
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.cmt .review .view .pf{
+  width: 100%;
+  height: 25%;
+  /* background-color: blue; */
+  display: flex;
+}
+.cmt .review .view .pf .ph{
+  width: 30%;
+  height: 70%;
+  /* background-color: green; */
+}
+.cmt .review .view .pf .ph img{
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+}
+.cmt .review .view .name{
+  width: 35%;
+  height: 100%;
+  /* background-color: blueviolet; */
+  padding: 10px 5px;
+}
+.cmt .review .view .name p{
+  font-size: 15px;
+}
+.cmt .review .view .sign{
+  width: 35%;
+  height: 100%;
+  /* background-color: rgb(249, 2, 2); */
+  
+}
+.cmt .review .view .sign i{
+  color: rgb(178, 179, 181);
+  font-size: 70px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.cmt .review .view-1{
+  width: 25%;
+  height: 90%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5px 5px 5px rgb(93, 89, 89);
+  margin-right: 10px;
+  /* border: 5px solid gray; */
+}
+.cmt .review .view-1 .star-1{
+  width: 100%;
+  height: 10%;
+  /* background-color: brown; */
+  display: flex;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.cmt .review .view-1 .text-c-1{
+  width: 90%;
+  height: 70%;
+  /* background-color: rgb(106, 165, 42); */
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.cmt .review .view-1 .pf-1{
+  width: 100%;
+  height: 25%;
+  /* background-color: blue; */
+  display: flex;
+}
+.cmt .review .view-1 .pf-1 .ph-1{
+  width: 30%;
+  height: 70%;
+  /* background-color: green; */
+}
+.cmt .review .view-1 .pf-1 .ph-1 img{
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+}
+.cmt .review .view-1 .name-1{
+  width: 35%;
+  height: 100%;
+  /* background-color: blueviolet; */
+  padding: 10px 5px;
+}
+.cmt .review .view-1 .name-1 p{
+  font-size: 15px;
+}
+.cmt .review .view-1 .sign-1{
+  width: 35%;
+  height: 100%;
+  /* background-color: rgb(249, 2, 2); */
+  
+}
+.cmt .review .view-1 .sign-1 i{
+  color: rgb(178, 179, 181);
+  font-size: 70px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+/* =====2==== */
+.cmt .review .view-2{
+  width: 25%;
+  height: 90%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5px 5px 5px rgb(93, 89, 89);
+  margin-right: 10px;
+  /* border: 5px solid gray; */
+}
+.cmt .review .view-2 .star-2{
+  width: 100%;
+  height: 10%;
+  /* background-color: brown; */
+  display: flex;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.cmt .review .view-2 .text-c-2{
+  width: 90%;
+  height: 70%;
+  /* background-color: rgb(106, 165, 42); */
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.cmt .review .view-2 .pf-2{
+  width: 100%;
+  height: 25%;
+  /* background-color: blue; */
+  display: flex;
+}
+.cmt .review .view-2 .pf-2 .ph-2{
+  width: 30%;
+  height: 70%;
+  /* background-color: green; */
+}
+.cmt .review .view-2 .pf-2 .ph-2 img{
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+}
+.cmt .review .view-2 .name-2{
+  width: 35%;
+  height: 100%;
+  /* background-color: blueviolet; */
+  padding: 10px 5px;
+}
+.cmt .review .view-2 .name-2 p{
+  font-size: 15px;
+}
+.cmt .review .view-2 .sign-2{
+  width: 35%;
+  height: 100%;
+  /* background-color: rgb(249, 2, 2); */
+  
+}
+.cmt .review .view-2 .sign-2 i{
+  color: rgb(178, 179, 181);
+  font-size: 70px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.cmt .review .view-3{
+  width: 25%;
+  height: 90%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5px 5px 5px rgb(93, 89, 89);
+  margin-right: 10px;
+  /* border: 5px solid gray; */
+}
+.cmt .review .view-3 .star-3{
+  width: 100%;
+  height: 10%;
+  /* background-color: brown; */
+  display: flex;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.cmt .review .view-3 .text-c-3{
+  width: 90%;
+  height: 70%;
+  /* background-color: rgb(106, 165, 42); */
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.cmt .review .view-3 .pf-3{
+  width: 100%;
+  height: 25%;
+  /* background-color: blue; */
+  display: flex;
+}
+.cmt .review .view-3 .pf-3 .ph-3{
+  width: 30%;
+  height: 70%;
+  /* background-color: green; */
+}
+.cmt .review .view-3 .pf-3 .ph-3 img{
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+}
+.cmt .review .view-3 .name-3{
+  width: 35%;
+  height: 100%;
+  /* background-color: blueviolet; */
+  padding: 10px 5px;
+}
+.cmt .review .view-3 .name-3 p{
+  font-size: 15px;
+}
+.cmt .review .view-3 .sign-3{
+  width: 35%;
+  height: 100%;
+  /* background-color: rgb(249, 2, 2); */
+  
+}
+.cmt .review .view-3 .sign-3 i{
+  color: rgb(178, 179, 181);
+  font-size: 70px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
